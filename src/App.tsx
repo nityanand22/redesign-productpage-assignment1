@@ -5,6 +5,7 @@ import { AuthProvider } from '@/auth'
 import Views from '@/views'
 import appConfig from './configs/app.config'
 import './locales'
+import Home from './views/Home'
 
 if (appConfig.enableMock) {
     import('./mock')
@@ -16,7 +17,8 @@ function App() {
             <BrowserRouter>
                 <AuthProvider>
                     <Layout>
-                        <Views />
+                        {/* <Views /> */}
+                        <Home />
                     </Layout>
                 </AuthProvider>
             </BrowserRouter>
