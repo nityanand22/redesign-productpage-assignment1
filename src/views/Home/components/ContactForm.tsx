@@ -60,7 +60,7 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-[#AEC6CF] py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left Column - Contact Info */}
@@ -125,7 +125,7 @@ const ContactForm = () => {
                                 <Link
                                     to="https://www.linkedin.com/company/gogetwellai/"
                                     target="_blank"
-                                    className="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 transition-colors"
+                                    className="bg-purple-100 p-3 rounded-lg hover:bg-white transition-colors"
                                 >
                                     <BsLinkedin className="w-6 h-6 text-primary" />
                                 </Link>

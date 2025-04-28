@@ -24,7 +24,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                 contactRef={contactRef}
                 aboutRef={aboutRef}
             />
-            <div className="!bg-[#01052feb] w-full relative flex flex-col py-2 md:py-5 overflow-hidden px-16 md:px-16 lg:px-24 xl:px-32">
+            <div className="bg-gradient-to-tr from-[#1e203b] to-[#214377] w-full relative flex flex-col py-2 md:py-5 overflow-hidden px-16 md:px-16 lg:px-24 xl:px-32">
                 <div className="min-h-[90vh] flex items-center">
                     {/* Background video for larger screens */}
                     {/* <video
